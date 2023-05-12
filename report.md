@@ -440,6 +440,7 @@ gnuplot -e '
 
 図4.3 ベンチマーク結果のグラフ  
 ![g4.3](https://github.com/mojyack/exp-dijkstra/blob/main/assets/g4.3.png?raw=true)
+
 グラフから、計算時間は頂点数に対して指数関数的に増加していくことがわかった。
 
 ## 考察
