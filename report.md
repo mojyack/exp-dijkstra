@@ -159,7 +159,7 @@ edge     4 5 6
 ちなみに、図1.2は図1.3のグラフを定義している。
 
 図1.3 重みつき無向グラフ^[1]  
-![g1.3](https://github.com/mojyack/exp-dijkstra/blob/main/assets/g1.3.png)
+![g1.3](https://github.com/mojyack/exp-dijkstra/blob/main/assets/g1.3.png?raw=true)
 ### 動作確認
 標準入力から読み込む場合(図1.4)とファイルから読み込む場合(図1.5)について動作確認を行った
 
@@ -202,7 +202,7 @@ a\b  0  1  2  3  4  5  6  7  8
 ### 目的
 Dijstraのアルゴリズムを理解し、自分のプログラムに適用できるようにする。
 ### 方法
-テキストやウェブサイトを参考にしながらDijstra法を勉強し、手動で一通り動かせるようにする。
+テキストやウェブサイト^[2] を参考にしながらDijstra法を勉強し、手動で一通り動かせるようにする。
 ### 結果
 理解の成果として、図1.3のグラフにおいて、ノード1から9の最短経路を求める例を示す。以下、ノードxをnxと表す。
 
@@ -439,7 +439,7 @@ gnuplot -e '
 ```
 
 図4.3 ベンチマーク結果のグラフ  
-![g4.3](https://github.com/mojyack/exp-dijkstra/blob/main/assets/g4.3.png)
+![g4.3](https://github.com/mojyack/exp-dijkstra/blob/main/assets/g4.3.png?raw=true)
 グラフから、計算時間は頂点数に対して指数関数的に増加していくことがわかった。
 
 ## 考察
